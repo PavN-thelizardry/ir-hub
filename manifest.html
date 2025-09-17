@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>IR Hub Manifest</title>
+  <!-- JSON-LD mirror so agents can parse data without fetching .json -->
+  <script type="application/ld+json" id="manifest-json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Prototype IR Hub Manifest",
+    "dateModified": "2025-09-16T12:00:00Z",
+    "hasPart": [
+      { "id":"orep-ar-2024","name":"Annual Report 2024","type":"annual_report","fiscalYear":2024,
+        "contentUrl":"https://pavn-thelizardry.github.io/ir-hub/orep.pa-ar-2024.pdf","fileFormat":"application/pdf","dateModified":"2024-12-31" },
+      { "id":"orep-ec-2024q2","name":"Earnings Call Transcript (2024-04-18)","type":"earnings_call","fiscalQuarter":"2024Q2",
+        "contentUrl":"https://pavn-thelizardry.github.io/ir-hub/2024-Apr-18-OREP.PA-140144443043-Transcript.pdf","fileFormat":"application/pdf","dateModified":"2024-04-18" },
+      { "id":"orep-ec-2024q3","name":"Earnings Call Transcript (2024-07-31)","type":"earnings_call","fiscalQuarter":"2024Q3",
+        "contentUrl":"https://pavn-thelizardry.github.io/ir-hub/2024-Jul-31-OREP.PA-138668289820-Transcript.pdf","fileFormat":"application/pdf","dateModified":"2024-07-31" },
+      { "id":"orep-ec-2024q4","name":"Earnings Call Transcript (2024-10-22)","type":"earnings_call","fiscalQuarter":"2024Q4",
+        "contentUrl":"https://pavn-thelizardry.github.io/ir-hub/2024-Oct-22-OREP.PA-137433052426-Transcript.pdf","fileFormat":"application/pdf","dateModified":"2024-10-22" },
+      { "id":"orep-ec-2025q1","name":"Earnings Call Transcript (2025-02-07)","type":"earnings_call","fiscalQuarter":"2025Q1",
+        "contentUrl":"https://pavn-thelizardry.github.io/ir-hub/2025-Feb-07-OREP.PA-140537283697-Transcript.pdf","fileFormat":"application/pdf","dateModified":"2025-02-07" },
+      { "id":"orep-ec-2025q2","name":"Earnings Call Transcript (2025-04-29)","type":"earnings_call","fiscalQuarter":"2025Q2",
+        "contentUrl":"https://pavn-thelizardry.github.io/ir-hub/2025-Apr-29-OREP.PA-141273073197-Transcript.pdf","fileFormat":"application/pdf","dateModified":"2025-04-29" }
+    ]
+  }
+  </script>
+  <style>body{font-family:system-ui,Arial,sans-serif;margin:2rem} table{border-collapse:collapse} td,th{border:1px solid #ddd;padding:.5rem}</style>
+</head>
+<body>
+  <h1>IR Hub Manifest (HTML)</h1>
+  <p>RAW JSON: <a href="https://raw.githubusercontent.com/pavn-thelizardry/ir-hub/main/manifest.json">raw.githubusercontent.com/.../manifest.json</a></p>
+  <table>
+    <thead><tr><th>ID</th><th>Title</th><th>Type</th><th>Period</th><th>Link</th><th>Last Modified</th></tr></thead>
+    <tbody>
+      <tr><td>orep-ar-2024</td><td>Annual Report 2024</td><td>annual_report</td><td>FY2024</td><td><a href="orep.pa-ar-2024.pdf">PDF</a></td><td>2024-12-31</td></tr>
+      <tr><td>orep-ec-2024q2</td><td>Earnings Call Transcript (2024-04-18)</td><td>earnings_call</td><td>2024Q2</td><td><a href="2024-Apr-18-OREP.PA-140144443043-Transcript.pdf">PDF</a></td><td>2024-04-18</td></tr>
+      <tr><td>orep-ec-2024q3</td><td>Earnings Call Transcript (2024-07-31)</td><td>earnings_call</td><td>2024Q3</td><td><a href="2024-Jul-31-OREP.PA-138668289820-Transcript.pdf">PDF</a></td><td>2024-07-31</td></tr>
+      <tr><td>orep-ec-2024q4</td><td>Earnings Call Transcript (2024-10-22)</td><td>earnings_call</td><td>2024Q4</td><td><a href="2024-Oct-22-OREP.PA-137433052426-Transcript.pdf">PDF</a></td><td>2024-10-22</td></tr>
+      <tr><td>orep-ec-2025q1</td><td>Earnings Call Transcript (2025-02-07)</td><td>earnings_call</td><td>2025Q1</td><td><a href="2025-Feb-07-OREP.PA-140537283697-Transcript.pdf">PDF</a></td><td>2025-02-07</td></tr>
+      <tr><td>orep-ec-2025q2</td><td>Earnings Call Transcript (2025-04-29)</td><td>earnings_call</td><td>2025Q2</td><td><a href="2025-Apr-29-OREP.PA-141273073197-Transcript.pdf">PDF</a></td><td>2025-04-29</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
